@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.header{
+    margin: 0;
+    padding: 1rem;
+    width: 250vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 30px;
+    justify-content: center;
+}
+.nav{
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all ease .8s;
+}
+.nav:hover{
+    font-size: 2rem;
+    transform: scale(1.6);
+    filter: drop-shadow(0 0 15px #546c9c);
+}
+.eminem_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: auto;
+    background: url(../img/eminem.jpeg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.eminem_1 h1{
+    font-size: 5rem;
+    position: relative;
+    color: #fff;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.eminem_1 h2{
+    font-size: 3rem;
+    color: #fff;
+    position: relative;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+}
+.eminem_2{
+    background: url(../img/album_cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: auto;
+    margin-top: .5rem;
+    padding: 1rem;
+    right: 1rem;
+    font-family: "Arsenal SC", sans-serif;
+}
+.eminem_2 h1{
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+    display: flex;
+    padding: 10rem 1rem 1rem;
+    justify-content: left;
+    background: transparent;
+    align-items: flex-start;
+}
+.eminem_2 p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+}
+.song{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    width: auto;
+    padding: 48px 0px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.song .song_container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.song_container .left{
+    flex: 2;
+}
+.song_container .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+.left h1{
+    color: white;
+    font-weight: 650;
+    font-size: 32px;
+}
+.left p{
+    color: white;
+    font-size: 15px;
+    margin-right: 50px;
+    text-align: justify;
+}
+.right-iframe{
+    margin-left: 20px;
+}
+.eminem_3{
+    background: url(../img/awards.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100dvh;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.eminem_3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 6rem;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+    color: #fff;
+}
+.eminem_3 a{
+    font-size: 1.5rem;
+    position: relative;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: #000;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.eminem_3 a:hover{
+    transform: scale(1.2);
+    color: rgb(255, 0, 0);
+}
+.eminem_3 a::before{
+    position: absolute;
+}
+.footer_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-left: 20px;
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+.footer_1 .logo img{
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 10px;
+}
+.name h1{
+    margin: 10px;
+    transition: .3s;
+        &:hover{
+        color: #282828;
+        }
+}
+.footer_1 .icons{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer_1 .icons i{
+    font-size: 30px;
+    margin: 10px;
+    transition: .3s;
+    &:hover{
+        color: #282828;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+}

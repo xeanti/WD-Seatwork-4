@@ -1,0 +1,109 @@
+.header{
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0;
+    margin: 0;
+}
+.company-logo{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 5rem;
+    transition: transform 0.3s ease
+}
+.company-logo:hover {
+    transform: scale(1.1);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav{
+    color: #ffced3;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    transition: all ease .5s;
+}
+.nav:hover{
+    font-size: 2rem;
+    transform: scale(1);
+    filter: drop-shadow(0 0 15px #0256ff);
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+@media(min-aspect-ratio: 16/9){
+    .bg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.title{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 0 0 3px white;
+    margin-bottom: 0.2rem;
+}
+
+.subtitle{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0 0 3px white;
+    margin-top: 0.5rem;
+}
+.description{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-shadow: 0 0 3px white;
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
