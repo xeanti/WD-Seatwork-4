@@ -97,7 +97,7 @@
     margin-bottom: 50px;
 }
 .kendrick_2 .listen{
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: #333333;
     color: #f8f8f8;
     text-decoration: none;
@@ -185,7 +185,7 @@
     font-size: 1em;
     color: #ffffff;
 }
-.diss{
+.tracks{
     width: auto;
     padding: 50px 20px;
     background-color: #fffffffa;
@@ -193,17 +193,17 @@
     margin-top: 50px;
     font-family: "Fira Sans", sans-serif;
 }
-.diss-title{
+.tracks-title{
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 40px;
 }
-.diss-container{
+.tracks-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.diss_1{
+.track_1{
     background-color: #384858;
     width: auto;
     padding: 20px;
@@ -213,12 +213,12 @@
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-.diss_1:hover{
+.track_1:hover{
     transform: scale(1.05);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
     background-color: #000000;
 }
-.diss_2{
+.track_2{
     background-color: #767676;
     width: auto;
     padding: 20px;
@@ -228,12 +228,12 @@
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-.diss_2:hover{
+.track_2:hover{
     transform: scale(1.05);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
     background-color: #000000;
 }
-.diss_3{
+.track_3{
     background-color: #d00000;
     width: auto;
     padding: 20px;
@@ -243,17 +243,17 @@
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-.diss_3:hover{
+.track_3:hover{
     transform: scale(1.05);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
     background-color: #000000;
 }
-.diss-container h3{
+.tracks-container h3{
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #ffffff;
 }
-.diss-container p{
+.tracks-container p{
     font-size: 1em;
     color: #ffffff;
 }
@@ -300,4 +300,68 @@
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
             }
+}
+
+
+
+
+
+.merchs {
+    background: #1f1f1f;
+    padding: 4rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.merchs h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.merch {
+    background: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+    padding: 1rem;
+}
+
+.merch:hover {
+    transform: scale(1.05);
+}
+
+.merch img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #e50914;
+}
+
+.merch h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.shop-here-btn {
+    background: #ff000d;
+    color: #000000;
+    font-style: italic;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.shop-here-btn:hover {
+    background: #000000;
+    color: #ffffff;
+    transform: scale(1.1);
 }
