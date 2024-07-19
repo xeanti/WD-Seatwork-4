@@ -64,7 +64,7 @@ The main purpose of this website is to provide a feature display or showcase for
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
